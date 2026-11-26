@@ -942,8 +942,10 @@ function applySiteLinks() {
   const links = siteFamily(location.hostname);
   const main = $('#familyMain');
   const soft = $('#familySoft');
+  const mapLink = $('#familyMap');
   if (main) main.href = links.main;
   if (soft) soft.href = links.soft;
+  if (mapLink) mapLink.href = links.map;
 }
 
 function init() {

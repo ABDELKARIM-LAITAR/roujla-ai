@@ -12,11 +12,13 @@ const APP = {
   sites: {
     github: {
       main: 'https://abdelkarim-laitar.github.io/roujla/',
-      soft: 'https://abdelkarim-laitar.github.io/roujlasoft/'
+      soft: 'https://abdelkarim-laitar.github.io/roujlasoft/',
+      map: 'https://abdelkarim-laitar.github.io/roujla-map/'
     },
     domain: {
       main: 'https://www.roujla.com/',
-      soft: 'https://soft.roujla.com/'
+      soft: 'https://soft.roujla.com/',
+      map: 'https://map.roujla.com/'
     }
   },
   /* Free, no-key OpenAI-compatible endpoint used by default. */

@@ -943,9 +943,11 @@ function applySiteLinks() {
   const main = $('#familyMain');
   const soft = $('#familySoft');
   const mapLink = $('#familyMap');
+  const trLink = $('#familyTranslate');
   if (main) main.href = links.main;
   if (soft) soft.href = links.soft;
   if (mapLink) mapLink.href = links.map;
+  if (trLink) trLink.href = links.translate;
 }
 
 function init() {
